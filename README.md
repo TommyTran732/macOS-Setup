@@ -2,7 +2,7 @@
 My notes on how I configure macOS. Some of these settings are for security & privacy, others are just personal preferences.
 
 ## Initial installation
-Enable both location services and FileVault. Location Services in particular is needed to enable FindMy later.
+Enable both location services and FileVault. Location services in particular is needed to enable FindMy later.
 
 ## Setting the UMask
 ```zsh
@@ -54,7 +54,7 @@ Run the [macOS Setup Script](https://github.com/TommyTran732/macOS-Setup-Script)
 Turn off show suggested and recent apps in Dock
 
 ### Privacy & Security
-- Location Services -> Turn everything off, except Setting time zone
+- Location Services -> Turn everything off (including Find My Mac), except Setting time zone
 - Turn off location services
 - Apple intelligence report -> Report Duration Off
 - Background security improvements -> On
