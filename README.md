@@ -74,7 +74,7 @@ Turn off show suggested and recent apps in Dock
 - Turn off show related content
 - Turn off help apple improve search
 - Disable all results from apps
-- Disable all results from system
+- Disable all results from system, except for "Apps"
 
 ### Trackpad
 - Secondary click -> Click in Bottom Right Corner
