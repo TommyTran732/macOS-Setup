@@ -96,7 +96,8 @@ View -> Enable both the "Sandbox" and "Restricted" columns.
 Microphone -> Mute (Probably theatre because TCC already exists, but still)
 
 ## Finder
-Settings -> Advanced -> Show all filename extensions
+- General -> Uncheck all items under "Show these items on the desktop" 
+- Advanced -> Show all filename extensions
 
 ## Terminal
 - Settings
