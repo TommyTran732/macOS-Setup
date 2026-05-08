@@ -56,6 +56,7 @@ Turn off show suggested and recent apps in Dock
 ### Lock Screen
 - Turn display off when power adatper is active -> For 5 minutes
 - Require password after screen saver begins or display is turned off -> Immediately
+- Show message when locked -> "If lost, please contact <email>"
 
 ### Privacy & Security
 - Location Services -> Turn everything off (including Find My Mac), except Setting time zone
