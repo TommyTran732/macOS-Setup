@@ -49,6 +49,10 @@ Run the [macOS Setup Script](https://github.com/TommyTran732/macOS-Setup-Script)
 ### Wi-Fi
 Ask to join hotspots -> Never
 
+#### Notes
+- To prevent malicious actors from setting up fake WiFi networks and track you as you move around, always disable Auto-Join for every network you connect to.
+- macOS defaults to using "Fixed" MAC address randomization, which allows access points to track when your specific device connects to them. Always set the "Private Wi-Fi address" to "random". Annoyingly, macOS allows you to set this when you are connected to the SSID, so you can't really manage it after the fact without disabling SIP and editing `/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist` (I think).
+
 ### Network
 Thunderbolt Bridge -> Delete Service
 
