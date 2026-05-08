@@ -77,6 +77,9 @@ Turn off show suggested and recent apps in Dock
 - Secondary click -> Click in Bottom Right Corner
 - Enable "Tap to click"
 
+## Activity Monitor
+View -> Enable both the "Sandbox" and "Restricted" columns.
+
 ## Terminal
 - Settings
   - Secure Keyboard Entry
