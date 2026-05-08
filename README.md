@@ -90,6 +90,9 @@ View -> Enable both the "Sandbox" and "Restricted" columns.
 ## Audio MIDI Setup
 Microphone -> Mute (Probably theatre because TCC already exists, but still)
 
+## Finder
+Settings -> Advanced -> Show all filename extensions
+
 ## Terminal
 - Settings
   - Secure Keyboard Entry
