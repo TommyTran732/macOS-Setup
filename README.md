@@ -2,7 +2,8 @@
 My notes on how I configure macOS. Some of these settings are for security & privacy, others are just personal preferences.
 
 ## Initial installation
-Enable both location services and FileVault. Location services in particular is needed to enable FindMy later.
+- Enable both location services and FileVault. Location services in particular is needed to enable FindMy later.
+- Disable Apple Intelligence, Siri, Screen Time, and other AI stuff. (Seriously, who would want this junk on their computer?)
 
 ## Setting the UMask
 ```zsh
