@@ -49,6 +49,9 @@ Run the [macOS Setup Script](https://github.com/TommyTran732/macOS-Setup-Script)
 ### Wi-Fi
 Ask to join hotspots -> Never
 
+### Network
+Thunderbolt Bridge -> Delete Service
+
 ### Battery
 - Options
   - Wake for network access -> Never (Only on power is quite buggy, as it will keep accessing Wi-Fi after it has been turned off and unplugged).    
