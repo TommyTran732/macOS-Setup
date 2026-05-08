@@ -129,7 +129,7 @@ Microphone -> Mute (Probably theatre because TCC already exists, but still)
   - Unpin favorites
   - Profiles -> Profile Preferences -> Turn of allow single sign-on for work or school sites
   - Privacy, search, and services
-    - Security -> Turn off protect from harmful sites and downloads (Need to debug while the recommended setting to disable SmartScreen is not effective here).
+    - Security -> Turn off protect from harmful sites and downloads (The policy to turn it off by default does not work without a real MDM).
     - Search and connected experiences -> Switch to DuckDuckGo
 
 ## Virtual Machines
