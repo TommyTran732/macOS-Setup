@@ -56,6 +56,10 @@ Thunderbolt Bridge -> Delete Service
 - Options
   - Wake for network access -> Never (Only on power is quite buggy, as it will keep accessing Wi-Fi after it has been turned off and unplugged).    
 
+### General
+- Storage
+  - Enable "Empty Trash automatically"
+
 ### Desktop & Dock
 Turn off show suggested and recent apps in Dock
 
