@@ -137,7 +137,7 @@ Compared to UTM:
 - It can suspend the VM even with GPU acceleration, making it much more usable.
 
 Compared to Parallels:
-- Linux drivers are open source and available on most distributions. There is no need for a custom module and installer like Parallels.
+- VMWare Linux drivers are open source and available on most distributions. There is no need for a custom kernel module and installer like Parallels, and it works nicely with Fedora Atomic too.
 
 ## Clean Up
 - Go through Privacy & Security and disable all unnecessary permissions. Annoyingly, VMWare Fusion will complain about Accessibility every start up if it is not allowed the permission.
