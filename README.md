@@ -83,6 +83,9 @@ Turn off show suggested and recent apps in Dock
 ## Activity Monitor
 View -> Enable both the "Sandbox" and "Restricted" columns.
 
+## Audio MIDI Setup
+Microphone -> Mute (Probably theatre because TCC already exists, but still)
+
 ## Terminal
 - Settings
   - Secure Keyboard Entry
