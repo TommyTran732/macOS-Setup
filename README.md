@@ -93,6 +93,8 @@ Turn off show suggested and recent apps in Dock
 - Search
   - Search engine -> DuckDuckGo
   - Disable all SmartSearch options
+- Security
+  - Enable "Warn before connecting to a website over HTTP"
 - Advanced
   - Use advanced tracking and fingerprinting protection -> in all browsing
   - Uncheck "Allow websites to check for Apple Pay and Apple card"
