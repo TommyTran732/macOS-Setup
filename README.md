@@ -99,6 +99,10 @@ Microphone -> Mute (Probably theatre because TCC already exists, but still)
 - General -> Uncheck all items under "Show these items on the desktop" 
 - Advanced -> Show all filename extensions
 
+## Passwords
+- Save passwords: Do Not Ask When Signing In
+- Uncheck all options, especially "Detect Compromised Passwords"
+
 ## Terminal
 - Settings
   - Secure Keyboard Entry
