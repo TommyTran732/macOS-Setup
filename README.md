@@ -59,7 +59,8 @@ Thunderbolt Bridge -> Delete Service
 
 ### Battery
 - Options
-  - Wake for network access -> Never (Only on power is quite buggy, as it will keep accessing Wi-Fi after it has been turned off and unplugged).    
+  - Wake for network access -> Never (Only on power is quite buggy, as it will keep accessing Wi-Fi after it has been turned off and unplugged).
+  - Enable "Prevent automatic sleeping on power adapter when the display is off". Automatic sleeping breaks file copies to Cryptomator and file uploads with Filezilla, so it is very annoying.
 
 ### General
 - Storage
