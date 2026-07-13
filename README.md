@@ -1,7 +1,7 @@
 # macOS-Setup
 My notes on how I configure macOS. Some of these settings are for security & privacy, others are just personal preferences.
 
-## Initial installation
+## Initial Installation
 - Enable both location services and FileVault. Location services in particular is needed to enable FindMy later.
 - Disable Apple Intelligence, Siri, Screen Time, and other AI stuff. (Seriously, who would want this junk on their computer?)
 
@@ -145,6 +145,23 @@ Compared to UTM:
 
 Compared to Parallels:
 - VMWare Linux drivers are open source and available on most distributions. There is no need for a custom kernel module and installer like Parallels, and it works nicely with Fedora Atomic too.
+
+### Automatically Mount Shared Directories:
+
+Sample systemd user service at `~/.config/systemd/user/mount.service`:
+
+```
+[Unit]
+Description=Mount shared directory
+
+[Service]
+ExecStart=/usr/bin/vmhgfs-fuse .host:/Development /home/tomster/Development -o subtype=vmhgfs-fuse -o uid=1000 -o gid=1000 -f
+
+[Install]
+WantedBy=default.target
+```
+
+We are not using the oneshot service type here, because vmhgfs-fuse will spawn a background process then exits with code 0. The oneshot service type will kill the background service. Instead, we use a normal service and add the `-f` flag to force the background service to run in the foreground.
 
 ## Clean Up
 - Go through Privacy & Security and disable all unnecessary permissions. Annoyingly, VMWare Fusion will complain about Accessibility every start up if it is not allowed the permission.
