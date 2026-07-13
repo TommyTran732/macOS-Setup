@@ -148,7 +148,7 @@ Compared to Parallels:
 
 ### Automatically Mount Shared Directories:
 
-Sample systemd user service at `~/.config/systemd/user/mount.service`:
+Sample systemd user service at `~/.config/systemd/user/mount.service` (thank you to @bban160 for figuring this out):
 
 ```
 [Unit]
