@@ -66,6 +66,12 @@ Thunderbolt Bridge -> Delete Service
 - Storage
   - Enable "Empty Trash automatically"
 
+### Apple Intelligence & Siri
+
+- Make sure everything is off
+- Siri Suggestions & Privacy (probably doesn't do anything much because everything is already toggled off)
+  - Disable everything
+
 ### Desktop & Dock
 Turn off show suggested and recent apps in Dock
 
