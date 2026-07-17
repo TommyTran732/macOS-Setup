@@ -169,6 +169,10 @@ WantedBy=default.target
 
 We are not using the oneshot service type here, because vmhgfs-fuse will spawn a background process then exits with code 0. The oneshot service type will kill the background service. Instead, we use a normal service and add the `-f` flag to force the background service to run in the foreground.
 
+### "Virtual machine might have been moved or copied" bug
+
+This can be worked around by [adding uuid.action = "keep" to the .vmx file of your VM](https://www.tecklyfe.com/fix-vmware-fusion-on-macos-asking-if-the-virtual-machine-was-moved-or-copied/).
+
 ## Clean Up
 - Go through Privacy & Security and disable all unnecessary permissions. Annoyingly, VMWare Fusion will complain about Accessibility every start up if it is not allowed the permission.
 - Check "Saved to iCloud" "Apps syncing to iCloud" and make sure no apps turn it on after first launch, except for Apple Configurator.
