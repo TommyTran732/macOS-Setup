@@ -102,6 +102,13 @@ View -> Enable both the "Sandbox" and "Restricted" columns.
 ## Audio MIDI Setup
 Microphone -> Mute (Probably theatre because TCC already exists, but still)
 
+## Calendar
+- Start week on: Monday
+- Day starts at: Midnight
+- Day ends at: Midnight
+- Show 24 hours at a time
+- Remove iCloud account
+
 ## Finder
 - General -> Uncheck all items under "Show these items on the desktop" 
 - Advanced -> Show all filename extensions
