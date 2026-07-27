@@ -80,17 +80,17 @@ Turn off show suggested and recent apps in Dock
 - Require password after screen saver begins or display is turned off -> Immediately
 - Show message when locked -> "If lost, please contact <email>"
 
-### Privacy & Security
-- Location Services -> Turn everything off (including Find My Mac), except Setting time zone
-- Turn off location services
-- Apple intelligence report -> Report Duration Off
-- Background security improvements -> On
-
 ### Spotlight
 - Turn off show related content
 - Turn off help apple improve search
 - Disable all results from apps
 - Disable all results from system, except for "Apps"
+
+### Privacy & Security
+- Location Services -> Turn everything off (including Find My Mac), except Setting time zone
+- Turn off location services
+- Apple intelligence report -> Report Duration Off
+- Background security improvements -> On
 
 ### Trackpad
 - Secondary click -> Click in Bottom Right Corner
