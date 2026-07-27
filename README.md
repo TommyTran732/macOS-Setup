@@ -10,11 +10,6 @@ My notes on how I configure macOS. Some of these settings are for security & pri
 sudo launchctl config user umask 077
 ```
 
-## Date & Time
-- Turn off "Set time and date automatically". I will work on enabling NTS later. The default is unsafe.
-- Enable 24-hour time
-- Enable "Set timezone automatically using your current location". Doesn't really matter because we will turn off location services in a bit, but why not.
-
 ## Install script
 Run the [macOS Setup Script](https://github.com/TommyTran732/macOS-Setup-Script)
 
@@ -65,6 +60,10 @@ Thunderbolt Bridge -> Delete Service
 ### General
 - Storage
   - Enable "Empty Trash automatically"
+- Date & Time
+  - Turn off "Set time and date automatically". I will work on enabling NTS later. The default is unsafe.
+  - Enable 24-hour time
+  - Enable "Set timezone automatically using your current location". Doesn't really matter because we will turn off location services in a bit, but why not.
 
 ### Apple Intelligence & Siri
 
@@ -75,16 +74,16 @@ Thunderbolt Bridge -> Delete Service
 ### Desktop & Dock
 Turn off show suggested and recent apps in Dock
 
-### Lock Screen
-- Turn display off when power adatper is active -> For 5 minutes
-- Require password after screen saver begins or display is turned off -> Immediately
-- Show message when locked -> "If lost, please contact <email>"
-
 ### Spotlight
 - Turn off show related content
 - Turn off help apple improve search
 - Disable all results from apps
 - Disable all results from system, except for "Apps"
+
+### Lock Screen
+- Turn display off when power adatper is active -> For 5 minutes
+- Require password after screen saver begins or display is turned off -> Immediately
+- Show message when locked -> "If lost, please email (email address)"
 
 ### Privacy & Security
 - Location Services -> Turn everything off (including Find My Mac), except Setting time zone
